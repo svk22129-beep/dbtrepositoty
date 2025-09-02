@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: raw
+    database: TELECOM_DB
+    schema: RAW
+    tables:
+      - name: customers_ext
+        description: "External table for customers data in S3"
+      - name: calls_ext
+        description: "External table for call records in S3"
